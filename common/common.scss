@@ -260,7 +260,7 @@ html {
   }
 
   .background-container {
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     height: 100vh;
@@ -270,6 +270,7 @@ html {
       var(--tertiary-hover) 0%,
       var(--tertiary) 100%
     );
+    background-image: url("/uploads/default/original/1X/background.jpg") no-repeat;
     clip-path: ellipse(148% 70% at 91% -14%);
   }
 
