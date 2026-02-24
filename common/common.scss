@@ -270,7 +270,9 @@ html {
       var(--tertiary-hover) 0%,
       var(--tertiary) 100%
     );
-    background-image: url("/uploads/default/original/1X/background.jpg") no-repeat;
+    background-image: url("/uploads/default/original/1X/background.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
     clip-path: ellipse(148% 70% at 91% -14%);
   }
 
